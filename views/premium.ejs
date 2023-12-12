@@ -1,0 +1,7 @@
+<%-include('./layouts/header')%>
+    <%for(let i=0;i<blog.length;i++){%>
+        <a href="/<%=blog[i]._id%>"><%=blog[i].title%></a>
+
+    <%}%>
+</body>
+</html>

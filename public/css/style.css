@@ -1,0 +1,10 @@
+.container{
+    height: 400px;
+    display: flex;
+}
+h1{
+    font-size: 80px;
+}
+p{
+    font-size: 18px;
+}
